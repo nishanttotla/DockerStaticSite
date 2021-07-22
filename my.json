@@ -1,0 +1,14 @@
+{
+	"info": {
+		"_postman_id": "99b761e4-ce42-479a-bf93-939568f884d7",
+		"name": "Managed Operations API",
+		"description": "# some really nice description",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"user": "John Doe",
+		"password" : "From1to6",
+		"token": "12qw23we34er45rt56ty67yu78ui89io90op",
+		"slack": "http://admin@SUPERTOKEM:slack.com
+	}
+
+	}
+}
