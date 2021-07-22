@@ -30,11 +30,11 @@ jobs:
         run: echo Hello, world!
 
       - name: Easy detect-secrets
+        env:
+          DS_ADDL_ARGS: '--only-verified'
   # You may pin to the exact commit or the version.
   # uses: RobertFischer/detect-secrets-action@fa2d02975bad47bd65e5752377d0ded2714c985f
         uses: RobertFischer/detect-secrets-action@v2.0.0
-        with:
-          DS_ADDL_ARGS: '--only-verified'
       - name: Commit back .secrets.baseline (if it was missing)
         uses: stefanzweifel/git-auto-commit-action@v4
         if: ${{ always() }}   
