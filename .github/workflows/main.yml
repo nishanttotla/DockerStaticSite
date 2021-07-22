@@ -34,6 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Easy detect-secrets
+  # You may pin to the exact commit or the version.
+  # uses: RobertFischer/detect-secrets-action@fa2d02975bad47bd65e5752377d0ded2714c985f
+        uses: RobertFischer/detect-secrets-action@v2.0.0
       - name: Security and Licence Scan
   # You may pin to the exact commit or the version.
   # uses: ShiftLeftSecurity/scan-action@54980bbdae434b8e7903cfcffa98a2601c207962
