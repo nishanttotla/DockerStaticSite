@@ -44,7 +44,7 @@ jobs:
         if: ${{ always() }}
         uses: reviewdog/action-detect-secrets@master
         with:
-          github_token: ${{ secrets.github_token }}
+          github_token: ${{ secrets.GH_TOKEN }}
           reporter: github-pr-review # Change reporter.
       - name: Security and Licence Scan      
   # You may pin to the exact commit or the version.
