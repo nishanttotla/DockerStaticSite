@@ -1,3 +1,6 @@
+# This is a fork by Anwar from "A Static Site using Docker and Nginx"
+# index.html file was modified to explain to Mr Omari how git/docker/siteweb work
+# BR Anwar :) ;) 
 # A Static Site using Docker and Nginx
 
 This repo contains code for building a simple static website served using an Nginx container inside Docker. The code for the site is contained in `index.html`, and the Nginx config is in `default.conf`. The Dockerfile contains commands to build a Docker Image.
